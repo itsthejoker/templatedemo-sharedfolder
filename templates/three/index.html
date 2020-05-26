@@ -1,0 +1,22 @@
+{% extends "shared_base.html" %}
+
+{% block content %}
+<div class="app3 fancy-box">
+    <div class="text-center">
+    <h1>Welcome to App Three!!</h1>
+    <p>
+        Click the buttons to go to Apps One or Two.
+    </p>
+        </div>
+    <div class="row pb-2">
+        <div class="col-sm-0 col-md-1"></div>
+        <div class="col-sm-6 col-md-5 mt-1">
+            <a href="{% url 'app1_index' %}" class="btn btn-block btn-outline-secondary">App One</a>
+        </div>
+        <div class="col-sm-6 col-md-5 mt-1">
+            <a href="{% url 'app2_index' %}" class="btn btn-block btn-outline-secondary">App Two</a>
+        </div>
+        <div class="col-sm-0 col-md-1"></div>
+    </div>
+</div>
+{% endblock %}

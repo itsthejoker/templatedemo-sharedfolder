@@ -1,0 +1,27 @@
+.almost-center {
+    margin-top: auto;
+    padding-bottom: 3em;
+    margin-bottom: auto;
+}
+
+.fancy-box {
+    border-radius: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1.5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 0.5em 2em black;
+}
+
+.app1 {
+    background-color: lightblue;
+}
+
+.app2 {
+    background-color: lightgreen;
+}
+
+.app3 {
+    background-color: lightcoral;
+}
