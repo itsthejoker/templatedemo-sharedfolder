@@ -11,6 +11,18 @@ The point of this repo is to show how Django handles templates when you only hav
 
 - have to specify exactly what template you're looking for -- e.g., `one/index.html`
 
+## Running
+
+```shell script
+poetry install
+poetry shell
+
+python manage.py collectstatic
+> yes
+
+python manage.py runserver
+```
+
 This is part of a set of repos.
 
 - https://github.com/itsthejoker/templatedemo-sharedfolder <-- you are here
